@@ -12,6 +12,7 @@ function keyDownHandler(event){
     if (event.key === 's') {  // Crouch
         player.speedY = 3;
     }
+    
 }
 
 function keyUpHandler(event){
